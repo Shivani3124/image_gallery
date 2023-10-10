@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     html,body{
+        height: 87%;
+        background-color: rgb(26, 24, 24);
+        font-size: 16px;
+     }
+     img{
+        
+        background-size: .75em 100% 100% 100%;
+        background-attachment: fixed;
+        display: flex;
+        align-items: center;
+        z-index: 1;
+        max-width: 100%;
+        grid-column: span 2;
+        margin-bottom: -52%;
+        clip-path: polygon(50% 0%, 100% 50% ,50% 100%,0% 50%);
+        transform: scale(1);
+        transition: all .25s;
+height: 285px;
+width: 285px;
+
+     }
+
+     img:nth-child(7n +1){
+        grid-column: 2/span 2;
+     }
+     .wrapper{
+        position:relative;
+
+        flex-grow: 1;
+        margin: auto;
+        max-width:1200px;
+        max-height: 1400px;
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-gap: 2vmin;
+         align-items: center;
+        justify-items: center;
+     }
+
+     @media  screen and (min-width:320px) and (max-width:512px) {
+        html,body{
+        height: 87%;
+        background-color: rgb(26, 24, 24);
+        font-size: 16px;
+     }
+     img{
+        
+        background-size: .75em 100% 100% 100%;
+        background-attachment: fixed;
+        display: flex;
+        align-items: center;
+        z-index: 1;
+        max-width: 100%;
+        grid-column: span 2;
+        margin-bottom: -52%;
+        clip-path: polygon(50% 0%, 100% 50% ,50% 100%,0% 50%);
+        transform: scale(1);
+        transition: all .25s;
+height: 95px;
+width: 95px;
+
+     }
+
+     img:nth-child(7n +1){
+        grid-column: 2/span 2;
+     }
+     .wrapper{
+        position:relative;
+
+        flex-grow: 1;
+        margin: auto;
+        max-width:1200px;
+        max-height: 1400px;
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-gap: 1vmin;
+         align-items: center;
+        justify-items: center;
+     }
+        
+     }
+   
+    </style>
+</head>
+<body>
+   
+  
+    <div CLASS="wrapper">
+    <img src="j1.avif" alt="" >
+    <img src="j2.avif" alt="" >
+    <img src="j3.avif" alt="" >
+    <img src="j4.avif" alt="" >
+    <img src="j5.avif" alt="" >
+    <img src="j6.avif" alt="" >
+    <img src="j7.avif" alt="" >
+    <img src="j8.avif" alt="" >
+    <img src="j9.avif" alt="" >
+    <img src="j10.avif" alt="" >
+    </div>
+</body>
+</html>
